@@ -3,3 +3,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 992px) {
+  .cs-col-one {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .cs-col-one {
+    min-width: 100%;
+  }
+}
+
+/* .cs-gap {
+  height: 200px;
+  background-color: #aaa;
+} */
+
+.cs-vs {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+/* div {
+  height: 100px;
+} */
