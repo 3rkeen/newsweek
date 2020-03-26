@@ -1,15 +1,16 @@
-# New York Times Clone Webpage
+# Newsweek.com clone webpage
 
-> This project is a clone of Apple webpage.
+> This project is a clone of Newsweek webpage.
 
-![screenshot](images/screenshot.PNG)
+![screenshot](screenshot.PNG)
 
-The essence of the project is to validate the use of background images and linear gradients to develop a webpage. This webpage contains Header, Main and Footer. The Header Section contains navbar, titles and links. The Main Section is the products part of the webpage where all the product images have laid out. The Footer Section has different links to navigate other pages of the webpage. The Structure of the webpages has been structured by using Grid and Flexbox.
+The essence of the project is to validate the use of bootstrap and responsive layout to develop a webpage. This webpage contains Header, Main and Footer. The Header Section contains navbar, titles and links. The Main Section is the news part of the webpage where all the news have laid out. The Footer Section has different links to navigate other pages of the webpage. The Structure of the webpages has been structured by using Bootstrap Grid and Flexbox.
 
 ## Built With
 
 - HTML5,
 - CSS3,
+- Bootstrap4
 
 ## Live Demo
 
