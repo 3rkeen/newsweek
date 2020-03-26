@@ -4,28 +4,32 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 320px;
+}
+
 @media screen and (max-width: 992px) {
-  .cs-col-one {
-    min-width: 50%;
+  .section-top-left {
+    min-width: 48%;
+  }
+  .section-top-middle {
+    min-width: 52%;
   }
 }
 
-@media screen and (max-width: 772px) {
-  .cs-col-one {
-    min-width: 100%;
-  }
+.bottom-ten-img {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  height: 322px;
 }
 
-/* .cs-gap {
-  height: 200px;
-  background-color: #aaa;
-} */
-
-.cs-vs {
-  height: 100px;
-  background-color: aquamarine;
+svg {
+  width: 25rem;
+  height: 4.5rem;
+  fill: #fff;
 }
 
-/* div {
-  height: 100px;
-} */
+.footer-logo {
+  width: 25rem;
+  height: 4.5rem;
+  fill: red;
+}
