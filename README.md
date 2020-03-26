@@ -14,11 +14,11 @@ The essence of the project is to validate the use of bootstrap and responsive la
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/3rkeen/apple-clone/21dacb29178670232f38f16f2db5817797e4f8eb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/3rkeen/newsweek/6203ee8ce6f804f60dbd5b18ce0435f5e5786968/index.html)
 
 ## Getting Started
 
-Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/apple-clone/21dacb29178670232f38f16f2db5817797e4f8eb/index.html)
+Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/newsweek/6203ee8ce6f804f60dbd5b18ce0435f5e5786968/index.html)
 
 ## Author
 
