@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}
+
+.head-top {
+  background-color: red;
+}
+
+@media screen and (max-width: 992px) {
+  .div-top-left {
+    min-width: 48%;
+  }
+
+  .div-top-middle {
+    min-width: 52%;
+  }
+
+  .header-date,
+  .header-navbar {
+    display: none;
+  }
+
+  .header-logo {
+    max-width: 8rem;
+  }
+}
+
+.bottom-ten-img {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+}
+
+.header-logo {
+  width: 25rem;
+  fill: #fff;
+}
+
+.footer-logo {
+  width: 20rem;
+  fill: red;
+}
+
+.custom-headline {
+  font: bold 16px/21px "Roboto Condensed", sans-serif;
+}

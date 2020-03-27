@@ -1,0 +1,2508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <div
+        class="d-flex justify-content-between head-top align-items-baseline sticky-top p-2"
+      >
+        <div>
+          <div>
+            <span
+              ><a
+                href="#"
+                class="font-weight-bold text-white text-decoration-none"
+              >
+                <i class="fas fa-cloud-sun"></i> 8° Riga, LV
+                <i class="fas fa-chevron-right"></i> </a
+            ></span>
+          </div>
+          <div>
+            <span class="font-weight-bold text-white header-date"
+              >Wed, Mar 18, 2020</span
+            >
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <svg class="header-logo" viewBox="0 0 395.6 60">
+              <g>
+                <path
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h5.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h5.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h5.8V59h-19.6V48.3h5.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <button type="button" class="btn btn-danger font-weight-bold">
+            SIGN IN
+          </button>
+          <button
+            type="button"
+            class="btn btn-light font-weight-bold text-danger"
+          >
+            SUBSCRIBE <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <nav class="header-navbar">
+        <ul
+          class="d-flex flex-wrap justify-content-center list-unstyled font-weight-bold text-secondary p-2"
+        >
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">U.S.</a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2"> World </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Business
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Tech & Science
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Culture
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Newsgeek
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2"> Sports </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Health
+            </a>
+          </li>
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              The Debate
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Vantage
+            </a>
+          </li>
+
+          <li>
+            |
+            <a href="#" class="text-decoration-none text-body p-2">
+              Weather
+            </a>
+          </li>
+
+          <li>
+            <input
+              type="text"
+              class="border-top-0 border-right-0 border-left-0 pl-2"
+              placeholder="Search"
+            /><i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main class="container-fluid">
+      <div class="main-div-one row">
+        <div class="div-top-left col-md">
+          <div>
+            <h5 class="text-muted font-weight-bold">
+              FEATURED STORIES
+            </h5>
+            <div>
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1575455/civil-disturbances-coronavirus-threat-military-pandemic.jpg?w=397&amp;h=265&amp;q=90&amp;f=6cc8c4751e73920a14c49817c1df2f16"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body text-decoration-color-red">
+                      How the Military Plans to Stop 'Civil Disturbances' Amid
+                      COVID-19 Pandemic
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    With the National Guard now active in 22 states and
+                    governors continuing to declare more severe emergency
+                    measures daily, the U.S. military is preparing forces to
+                    assume a larger role in the coronavirus response.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1575122/iraq-protest-soleimani-muhandis-deaths.jpg?w=397&h=265&q=90&f=9be9e4d61059f7c609de3290b702aa75"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body">
+                      Even U.S. Spy Satellites Were Kept in Dark Over Iran
+                      General's Killing
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    "It was like, 'Oh s***, we got struck,'" one U.S. service
+                    member said. "We had to take our posture, and then we're
+                    watching Al Jazeera on the news 10 minutes later, and...it
+                    wasn't what we thought it was."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body">
+                  <img
+                    src="https://d.newsweek.com/en/full/1575387/job-seekers-san-francisco-after-crash.jpg?w=397&h=265&q=90&f=afc669bb6fc9c31b1426e8fb8ac5273c"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body">
+                      Jobless Claims Set to Skyrocket by 700 Percent in One
+                      Week: Goldman Sachs
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    An economist at the investment bank said consumer spending
+                    on several goods and services had dropped dramatically.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <hr />
+
+              <h5>
+                <a href="#" class="text-body">
+                  Coronavirus Paid Sick Leave Bill 'Does Not Go Far Enough,'
+                  Economists Warn
+                </a>
+              </h5>
+            </div>
+            <hr />
+            <div>
+              <div class="card">
+                <a href="#" class="text-body">
+                  <img
+                    src="https://d.newsweek.com/en/full/1571226/guest-house-oscala.jpg?w=500&h=333&f=d787e5d9fb89f5732572966a47675994"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Who Leads the Field in Dependency Treatment in 2020?</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    <a href="#" class="text-body"
+                      >When seeking guidance on beating an addiction, there
+                      are</a
+                    >
+                    many things to consider. Where do you go to ensure that you
+                    will not just turn the corner, but keep carrying on down the
+                    right road for the rest of your life? Find out more.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1558006/peabody-college-education-human-development-vanderbilt.jpg?w=500&h=333&f=766481a5dc35adc0377544b6354af48e"
+                    alt=""
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Embark on a Career in Teaching With a Leading School</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Teachers are more in demand than ever, and the rewards for a
+                    career as an educator are numerous and generous. Find out
+                    how to get involved.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1570615/nw-james-bond-banner-sponsored.jpg?w=500&h=333&f=547001b6968bad8dcee8cf938a4c68ed"
+                    alt=""
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Newsweek James Bond Special Edition</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Agent 007 claimed a spot as the world’s coolest spy since
+                    Sean Connery brought him to life on the big screen. Explore
+                    Bond’s legacy with the Newsweek Special Edition, featuring
+                    behind-the-scenes photos from the films and your complete
+                    guide to every Bond Girl, villain and getaway car in the
+                    canon.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                      for Brands</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Newsweek AMPLIFY, the company's independent business unit,
+                    has launched a new program to empower digital brands with
+                    comprehensive content marketing and advertising strategies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-top-middle col-md-5 sticky">
+          <div>
+            <h5 class="text-muted font-weight-bold">TOP STORY</h5>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body">
+                  <img
+                    src="https://d.newsweek.com/en/full/1575272/fe-covid-cure-opener.jpg?w=591&amp;h=364&amp;l=47&amp;t=40&amp;f=9bf215620b4ecf73f9f6af5b4bb552f6"
+                    alt="FE_COVID_Cure_opener"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body">
+                      Inside the Race for a Coronavirus Cure
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    "The pace of the scientific research has been really at a
+                    breathtaking speed," says Angela Rasmussan, a virologist and
+                    research scientist at Columbia University. "It's
+                    unprecedented."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>
+              <a href="#" class="text-muted font-weight-bold">
+                CULTURE & TRAVEL
+              </a>
+            </h5>
+            <div class="container-fluid no-gutters">
+              <div class="row">
+                <div class="col-md-4 p-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1574874/spanish-steps-italy.jpg?w=397&h=397&f=ad0f7bdfd3dc9fffc99ae723d926ac32"
+                      class="card-img-top"
+                      alt="Taj Mahal"
+                    />
+                  </a>
+                  <div class="pt-2">
+                    <h5 class="">
+                      <a href="#" class="text-body">
+                        Social Distancing Around the World in Photos
+                      </a>
+                    </h5>
+                    <p class="">
+                      From Rome's desolate Spanish Steps to New York's deserted
+                      Times Square, take a look at some of the world's busiest
+                      landmarks that are all now but eerily empty.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2 ">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575422/breakfast-lunch-dinner.jpg?w=397&h=397&f=a6dbd65ad3ba41063a6b46b1f92b7a60"
+                      class="card-img-top"
+                      alt="Taj Mahal"
+                    />
+                  </a>
+                  <div class="pt-2">
+                    <h5 class="">
+                      <a href="#" class="text-body">
+                        Wanderlust Stricken? The 10 Best Travel TV Shows to
+                        Watch Now
+                      </a>
+                    </h5>
+                    <p class="">
+                      Travelers can still explore the world while binge-watching
+                      these travel TV shows in home isolation. Thanks to
+                      streaming services, we can virtually send ourselves to
+                      nearly any and every part of the planet in just a few
+                      clicks..
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2 ">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&amp;h=397&amp;f=6059c9040fd468ee41988930ca76f210"
+                      class="card-img-top"
+                      alt="Taj Mahal"
+                    />
+                  </a>
+                  <div class="pt-2">
+                    <h5 class="">
+                      <a href="#" class="text-body">
+                        See the World While Social Distancing With These Virtual
+                        Tours
+                      </a>
+                    </h5>
+                    <p class="">
+                      What to do with the free time available when trips to the
+                      movies, a museum or the theater are out of the question?
+                      Here is a list of museums and other popular tourist
+                      attractions that have entire collections or performances
+                      available online.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 class="text-muted font-weight-bold">MORE STORIES</h5>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575325/motorists-philippines-march-2020.jpg?w=95&h=95&f=81c3a2cd896bc8d08f3489ba9992a4f6"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      Global Coronavirus Death Toll Exceeds 10,000, Nearly
+                      250,000 Infected
+                    </a>
+                  </h5>
+                  <p class="">
+                    Restrictions have been introduced across the globe to curb
+                    the spread of the virus, from "stay at home" orders to a
+                    travel ban on foreign nationals.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575369/dmitry-peskov-russia-saudi-arabia-oil-trump.jpg?w=95&h=95&f=655cd25c4bb205414ed3bbe23ebc8c93"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      Russia Says No One Should Intervene in Saudi Oil War
+                    </a>
+                  </h5>
+                  <p class="">
+                    President Trump said Thursday he would intervene in the oil
+                    dispute at the "appropriate time," as American producers
+                    grapple with low prices.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575466/global-gag-rule.jpg?w=95&h=95&f=0c3b74ec7302eca0461450c39b75e8ae"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      NGOs That Refused to Enforce 'Global Gag' Rule Lost Out on
+                      Collective $150M
+                    </a>
+                  </h5>
+                  <p class="">
+                    Planned Parenthood has warned that during a public
+                    class="text-danger font-weight-bolder text-decoration-none"
+                    health crisis, such as COVID-19, funding could be
+                    invaluable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body">
+                      China's Race for a Vaccine Could Produce an Unsafe
+                      Solution, Former Ambassador Warns
+                    </a>
+                  </h5>
+                  <p class="">
+                    Max Baucus said the hunt for a vaccine could be a
+                    "double-edged sword" if researchers are rushed for political
+                    gain.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-top-right col-lg sticky">
+          <div>
+            <h5>
+              <a href="#" class="text-body text-decoration-none">OPINION</a>
+            </h5>
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1575395/richard-rubenstein.png?w=63&amp;h=63&amp;f=8b87758ea9d3bff05635e4e4ff170093"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Bernie's Campaign Was All Policy. His Values Were a
+                      Better Rallying Cry</a
+                    >
+                  </h5>
+                  <p class="">
+                    BY RICHARD E. RUBENSTEIN
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
+                      class=""
+                      alt="CHARLIE KIRK"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >The Ethics of the Coronavirus Crisis Are Muddier Than You
+                      Think</a
+                    >
+                  </h5>
+                  <p class="">
+                    BY CHARLIE KIRK
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/111007/jack-brewster.png?w=63&h=63&f=771668943540282893f32c73c248ba8d"
+                      class=""
+                      alt="JACK BREWSTER"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Joe Biden's Stutter Explains a Lot About How He Speaks. I
+                      Should Know</a
+                    >
+                  </h5>
+                  <p class="">
+                    BY JACK BREWSTER
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1574930/ally-kehoe.png?w=63&h=63&f=9c256fee029e5f057bf3dc45b292cc0d"
+                      class=""
+                      alt="ALLY KEHOE"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >JMy Family Gave Up Sitting Shiva to Fight Coronavirus</a
+                    >
+                  </h5>
+                  <p class="">
+                    BY ALLY KEHOE
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>
+              <a href="#" class="text-body text-decoration-none">THE DEBATE</a>
+            </h5>
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <hr />
+            <div class="d-flex justify-content-between">
+              <div>
+                <span
+                  ><a href="#" class="text-body text-decoration-none"
+                    >BY NIGEL FARAGE</a
+                  ></span
+                >
+              </div>
+              <div class="align-self-end">
+                <span>VS</span>
+              </div>
+              <div class="">
+                <a href="#" class="text-body text-decoration-none"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575395/richard-rubenstein.png?w=63&amp;h=63&amp;f=8b87758ea9d3bff05635e4e4ff170093"
+                    class=""
+                    alt="Richard Rubenstein"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572870/coronavirus-italy.jpg?w=95&h=95&f=4936584f71fad398505b1f91cd5a9721"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >In This Fight Against Coronavirus, We Need to Protect
+                      Both Lives and Livelihoods</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <hr />
+            <div class="d-flex justify-content-between">
+              <div>
+                <span
+                  ><a href="#" class="text-body text-decoration-none"
+                    >BY NIGEL FARAGE</a
+                  ></span
+                >
+              </div>
+              <div class="">
+                <a href="#" class="text-body text-decoration-none"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575395/richard-rubenstein.png?w=63&amp;h=63&amp;f=8b87758ea9d3bff05635e4e4ff170093"
+                    class=""
+                    alt="Richard Rubenstein"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>
+              <a href="#" class="text-body text-decoration-none">LATEST NEWS</a>
+            </h5>
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#" class="text-body text-decoration-none"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                  /></a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none"
+                      >Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div>
+              <div class="card">
+                <a href="#" class="text-body "
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575455/civil-disturbances-coronavirus-threat-military-pandemic.jpg?w=397&amp;h=265&amp;q=90&amp;f=6cc8c4751e73920a14c49817c1df2f16"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body "
+                      >How the Military Plans to Stop 'Civil Disturbances' Amid
+                      COVID-19 Pandemic</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    With the National Guard now active in 22 states and
+                    governors continuing to declare more severe emergency
+                    measures daily, the U.S. military is preparing forces to
+                    assume a larger role in the coronavirus response.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-3 d-flex justify-content-center">
+              <div class=" p-2 bg-light">
+                <div class="mb-3">
+                  <span class="bg-danger text-light font-weight-bolder p-2"
+                    >N</span
+                  >
+                  <span>SIGN UP FOR OUR NEWSLETTER</span>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-dark">
+                    SIGN UP <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+                <div>
+                  <span>Update your preferences »</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body "
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575455/civil-disturbances-coronavirus-threat-military-pandemic.jpg?w=397&amp;h=265&amp;q=90&amp;f=6cc8c4751e73920a14c49817c1df2f16"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body "
+                      >How the Military Plans to Stop 'Civil Disturbances' Amid
+                      COVID-19 Pandemic</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    With the National Guard now active in 22 states and
+                    governors continuing to declare more severe emergency
+                    measures daily, the U.S. military is preparing forces to
+                    assume a larger role in the coronavirus response.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <a href="#" class="text-body "
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575455/civil-disturbances-coronavirus-threat-military-pandemic.jpg?w=397&amp;h=265&amp;q=90&amp;f=6cc8c4751e73920a14c49817c1df2f16"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body "
+                      >How the Military Plans to Stop 'Civil Disturbances' Amid
+                      COVID-19 Pandemic</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    With the National Guard now active in 22 states and
+                    governors continuing to declare more severe emergency
+                    measures daily, the U.S. military is preparing forces to
+                    assume a larger role in the coronavirus response.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-div-two">
+        <div class="div-bottom-one">
+          <h5 class="p-3 text-center">
+            <span class="bg-danger text-light font-weight-bolder p-1">N</span>
+            IN THE MAGAZINE
+          </h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <span
+                    ><b class="text-light bg-danger p-1">FEATURES</b>
+                    <a
+                      href="#"
+                      class="text-danger font-weight-bolder text-decoration-none"
+                      >HEALTH</a
+                    ></span
+                  >
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Is Bernie Sanders Right About Medicare For All?</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-two">
+          <h5 class="p-3 text-center">
+            <span class="bg-danger text-light font-weight-bolder p-1">N</span>
+            EDITOR'S PICK
+          </h5>
+          <hr />
+          <div class="row no-gutters">
+            <div class="col-lg-6 row no-gutters">
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 row no-gutters">
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 row no-gutters">
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 row no-gutters">
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=397&h=295&f=99139667c4a9ffa258e69c6742b8ac80"
+                      alt="Civil disturbances coronavirus threat military pandemic"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#" class="text-body">
+                        Chinese Red Cross VP Warns Italy of Coronavirus
+                        Pandemic: 'We Must Hurry'
+                      </a>
+                    </h5>
+                    <p class="card-text">
+                      Sun Shuopeng's comments came on the same day that Italy
+                      surpassed China, where the virus originated, as the
+                      country with the most deaths from the virus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-three">
+          <h5 class="p-3 text-center">
+            <span class="bg-danger text-light font-weight-bolder p-1">N</span>
+            FEATURED SLIDESHOWS
+          </h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-four">
+          <h5 class="p-2 font-weight-bolder text-danger">U.S.</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-five">
+          <h5 class="p-2 font-weight-bolder text-danger">World</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-six">
+          <h5 class="p-2 font-weight-bolder text-danger">Business</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-seven">
+          <h5 class="p-2 font-weight-bolder text-danger">Tech & Science</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-eight">
+          <h5 class="p-2 font-weight-bolder text-danger">Culture</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-nine">
+          <h5 class="p-2 font-weight-bolder text-danger">Sports</h5>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                    alt="Civil disturbances coronavirus threat military pandemic"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-body"
+                      >Relive the 'Star Wars' Saga at These Filming Locations</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <a href="#">
+                    <img
+                      src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317"
+                      class=""
+                      alt="Richard Rubenstein"
+                    />
+                  </a>
+                </div>
+                <div class="">
+                  <h5 class="custom-headline">
+                    <a href="#" class="text-body text-decoration-none">
+                      Protecting Us All From an Epidemic Should Be Prioritized
+                      Over the Economy
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-bottom-ten">
+          <div class="row">
+            <div class="col-lg-8 p-4">
+              <h5 class="text-danger">SUBSCRIBE</h5>
+              <div class="row p-5 text-center align-items-center bg-light">
+                <div class="col-md-3">
+                  <img
+                    src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg?w=170&q=95&f=d09d4323d899b185262420c3499dcda8"
+                    class=""
+                    alt="Richard Rubenstein"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <h5 class="custom-headline">
+                    In-depth Stories You Don't See Elsewhere About Topics You
+                    Want to Read!
+                  </h5>
+                  <p class="card-text">
+                    All Access + Weekly Delivery. Choose A Membership That's
+                    Perfect for You!
+                  </p>
+                  <button type="button" class="btn btn-dark">
+                    SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 p-4">
+              <h5 class="text-danger">NEWSLETTER</h5>
+              <div class="row">
+                <div class="col-md-5 bottom-ten-img "></div>
+                <div class="col-md-7 p-5 text-center ">
+                  <h5 class="custom-headline">
+                    The Starting 5
+                  </h5>
+                  <p class="card-text">
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                  <button type="button" class="btn btn-dark">
+                    SIGN UP <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="p-3">
+        <div
+          class="d-md-flex justify-content-between align-items-end flex-wrap"
+        >
+          <div>
+            <svg class="footer-logo" viewBox="0 0 395.6 60">
+              <g>
+                <path
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h5.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h5.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h5.8V59h-19.6V48.3h5.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <span>© 2020 NEWSWEEK </span>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="text-dark"
+              ><i class="fab fa-instagram-square fa-2x"></i
+            ></a>
+            <a href="#"><i class="fab fa-tumblr fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <ul class="d-flex list-unstyled flex-wrap text-muted">
+            <li><b class="p-2">Editions:</b></li>
+
+            <li>
+              <a href="#" class="text-muted p-2 text-decoration-none"
+                >U.S. Edition</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class=" text-decoration-none p-2 text-muted">日本</a>
+            </li>
+
+            <li>
+              |
+              <a href="#" class=" text-decoration-none p-2 text-muted"
+                >Pakistan</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class=" text-decoration-none p-2 text-muted"
+                >Polska</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class=" text-decoration-none p-2 text-muted"
+                >România</a
+              >
+            </li>
+          </ul>
+          <ul class="d-flex list-unstyled flex-wrap text-muted">
+            <li>
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Corrections</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Contact Us</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Editorial Guidelines</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Advertise</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Copyright</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Terms & Conditions</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Privacy Policy</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Cookie Policy</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Terms of Sale</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Archive</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Announcements</a
+              >
+            </li>
+
+            <li>
+              |
+              <a href="#" class="text-muted text-decoration-none p-2"
+                >Consent preferences</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
